@@ -1,0 +1,683 @@
+.slidetitle {
+    width: 400px;
+    height: auto;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+
+.slidetitle1 {
+    width: auto;
+    height: auto;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fffef2;
+    gap: 20px;
+    padding: 30px;
+    margin-left: -60px;
+    margin-right: -60px;
+}
+
+/* =========================================== */
+
+.titleslide {
+    display: none;
+}
+
+@media(max-width:1024px) {
+    .titleslide {
+        display: inline-block;
+        height: auto;
+        background-color: white;
+    }
+}
+
+
+/* ==============Seasonal offer====================== */
+
+
+
+.seasonoffer {
+    margin-top: 100px;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    padding-left: 70px;
+    gap: 80px;
+}
+
+.offerinfo {
+    padding: 0px 20px;
+    width: 450px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+
+    h1,
+    p,
+    a {
+        color: rgb(0, 0, 0);
+    }
+
+    p {
+        line-height: 1.7;
+    }
+
+    .seasonbar {
+        height: 60px;
+        width: 300px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: transparent;
+        border-style: solid;
+        border-width: 2px;
+        border-color: rgb(158, 158, 158);
+
+    }
+}
+
+.offerImage {
+    height: 500;
+    width: 50%;
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media(max-width:1520px) {
+    .offerImage {
+        width: 50%;
+    }
+}
+
+@media(max-width:1130px) {
+    .offerImage {
+        width: 425px;
+    }
+}
+
+@media(max-width:1024px) {
+    .offerinfo {
+        width: 100%;
+        padding: 0;
+    }
+
+    .offerImage {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(max-width:639px) {
+    .seasonoffer {
+        padding: 30px 15px;
+    }
+}
+
+
+/* ==========================gift finder=================================== */
+
+
+
+.giftfinder {
+    margin-top: 100px;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    padding-right: 70px;
+    gap: 80px;
+    margin-bottom: 100px;
+}
+
+.giftimage {
+    height: 500;
+    width: 50%;
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.giftinfo {
+    padding: 0px 20px;
+    width: 450px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+
+    h1,
+    p,
+    a {
+        color: rgb(0, 0, 0);
+    }
+
+    p {
+        line-height: 1.7;
+    }
+
+    .giftbar {
+        height: 60px;
+        width: 270px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: transparent;
+        border-style: solid;
+        border-width: 2px;
+        border-color: rgb(158, 158, 158);
+
+    }
+}
+
+
+@media(max-width:1520px) {
+    .giftimage {
+        width: 50%;
+    }
+}
+
+@media(max-width:1130px) {
+    .giftimage {
+        width: 425px;
+    }
+}
+
+@media(max-width:1024px) {
+    .giftinfo {
+        width: 100%;
+        padding-left: 70px;
+    }
+
+    .giftimage {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+}
+
+@media(max-width:639px) {
+    .giftfinder {
+        padding: 30px 15px;
+    }
+
+    .giftinfo {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
+
+/* ===================lotion info========================================= */
+
+
+
+.facelotion {
+    margin-top: 100px;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    padding-left: 70px;
+    gap: 80px;
+}
+
+.lotioninfo {
+    padding: 0px 20px;
+    width: 450px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+
+    h1,
+    p,
+    a {
+        color: rgb(0, 0, 0);
+    }
+
+    p {
+        line-height: 1.7;
+    }
+
+    .lotionbar {
+        height: 60px;
+        width: 300px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: transparent;
+        border-style: solid;
+        border-width: 2px;
+        border-color: rgb(158, 158, 158);
+
+    }
+}
+
+.lotionImage {
+    height: 500;
+    width: 50%;
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media(max-width:1520px) {
+    .lotionImage {
+        width: 50%;
+    }
+}
+
+@media(max-width:1130px) {
+    .lotionImage {
+        width: 425px;
+    }
+}
+
+@media(max-width:1024px) {
+    .lotioninfo {
+        width: 100%;
+        padding: 0;
+    }
+
+    .lotionImage {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(max-width:639px) {
+    .facelotion {
+        padding: 30px 15px;
+    }
+}
+
+/* =======================Suncare=============== */
+
+.baseinfo {
+    width: 400px;
+    height: auto;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+
+.baseinfo1 {
+    width: auto;
+    height: auto;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fffef2;
+    gap: 20px;
+    padding: 30px;
+    margin-left: -60px;
+    margin-right: -60px;
+
+}
+
+.suncare-section {
+    display: none;
+}
+
+@media(max-width:1024px) {
+    .suncare-section {
+        display: inline-block;
+        height: auto;
+        background-color: white;
+        margin-bottom: 100px;
+    }
+}
+
+
+
+/* =================appointment================= */
+
+
+.appointment {
+    margin-top: 100px;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    padding-right: 70px;
+    gap: 80px;
+}
+
+.appointimage {
+    height: 500;
+    width: 50%;
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.appointinfo {
+    padding: 0px 20px;
+    width: 450px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+
+    h1,
+    p,
+    a {
+        color: rgb(0, 0, 0);
+    }
+
+    p {
+        line-height: 1.7;
+    }
+
+    .appointbar {
+        height: 60px;
+        width: 270px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: transparent;
+        border-style: solid;
+        border-width: 2px;
+        border-color: rgb(158, 158, 158);
+
+    }
+}
+
+
+@media(max-width:1520px) {
+    .appointimage {
+        width: 50%;
+    }
+}
+
+@media(max-width:1130px) {
+    .appointimage {
+        width: 425px;
+    }
+}
+
+@media(max-width:1024px) {
+    .appointinfo {
+        width: 100%;
+        padding-left: 70px;
+    }
+
+    .appointimage {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(max-width:639px) {
+    .appointment {
+        padding: 30px 15px;
+    }
+
+    .appointinfo {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
+.mystore {
+    width: 60v;
+}
+
+
+
+
+/* ===================miniSlider=============================== */
+
+
+
+.mystore {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.store-section {
+    margin-left: 100px;
+    width: 400px;
+    height: auto;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.storebar {
+    height: 60px;
+    width: 270px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(158, 158, 158);
+
+}
+
+.storeimages {
+    width: 50%;
+    height: 550px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        position: relative;
+    }
+}
+
+.clicks {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    button {
+        background-color: rgb(37, 37, 37);
+        color: white;
+        transform: scale(0);
+    }
+}
+
+.storeimages:hover button {
+    transform: scale(1);
+    transition: 0.3s all ease-in-out;
+}
+.subline{
+    width: 100%;
+    margin-top: 60px;
+    text-align: center;
+}
+@media(max-width:1399px){
+    .mystore{
+        flex-direction: column;
+    }
+    .store-section{
+        margin: 0;
+        padding: 30px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .storeimages {
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+            position: relative;
+        }
+    }
+}
+
+
+
+/* ==================purchase============================ */
+
+.purchase{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    padding: 50px;
+    margin-top: 100px;
+}
+.stateimage{
+    width: auto;
+    img{
+        width: 100%;
+        object-fit: contain;
+    }
+}
+.purchase-section {
+    width: 50%;
+    height: auto;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.purchasebar {
+    height: 60px;
+    width: 270px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(158, 158, 158);
+
+}
+
+@media(max-width:1199px){
+    .purchase{
+        flex-direction: column;
+        padding: 30px;
+    }
+    .purchase-section{
+        width: 100%;
+        h1{
+            font-size: 25px;
+        }
+    }
+}
+
+
+
+ .wishes{
+    height: 500px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    padding: 20px;
+    gap: 30px;
+    h1{
+        font-size: 25px;
+    }
+    
+ }
+
+
+
+ /* ================================= */
+
+ .certification{
+    background-color: #F6F5E8;
+    height: auto;
+    width: 100vw;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    padding: 70px 0;
+ }
+ .sheet{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+ }
+ @media(max-width:1024px){
+    .sheet{
+        display: flex;
+        align-items: flex-start;
+        width: 300px;
+        text-align: start;
+   }
+ }
+
+ @media(max-width:639px){
+    .certification{
+        flex-direction: column;
+    }
+    .sheet{
+        display: flex;
+        width: 100%;
+
+   }
+ }

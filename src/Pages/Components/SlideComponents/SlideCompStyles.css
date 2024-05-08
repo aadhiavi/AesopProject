@@ -1,0 +1,12 @@
+
+
+/* button{
+    transform: scale(0);
+    transition: 0.3s all ease-in-out;
+    visibility: hidden;
+    font-size: large;
+}
+.carousel:hover button{
+    transform: scale(1);
+    visibility: visible;
+} */
