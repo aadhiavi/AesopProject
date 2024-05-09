@@ -88,6 +88,12 @@
     .list {
         display: none;
     }
+    .head-info{
+    padding:12px 15px;
+   }
+   .head-info2{
+     padding:12px 15px;
+   }
 }
 
 
