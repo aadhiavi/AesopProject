@@ -56,11 +56,12 @@
 
 @media(max-width:376px) {
     .email-button {
-        position: absolute;
         top: 95px;
-        right: 3px;
-        background-color: black;
-        color: white;
+    }
+}
+@media(max-width:366px) {
+    .email-button {
+        top: 115px;
     }
 }
 
