@@ -59,7 +59,7 @@
         top: 95px;
     }
 }
-@media(max-width:366px) {
+@media(max-width:356px) {
     .email-button {
         top: 115px;
     }
