@@ -186,6 +186,7 @@
 @media(max-width:639px) {
     .footer {
         gap: 20px;
+      padding:50px 15px;
     }
 
     .footer-list2,
