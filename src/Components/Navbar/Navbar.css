@@ -24,6 +24,7 @@
 
 
 .list {
+z-index:999999:
     height: 10vh;
     width: 100vw;
     display: flex;
