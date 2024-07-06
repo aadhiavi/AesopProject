@@ -105,6 +105,7 @@ nav {
 @media(max-width:639px) {
   nav {
     position: fixed;
+z-index:99999999;
     transform: scale(1);
     justify-content: space-between;
     align-items: center;
